@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#map-canvas {
+  height: 99%;
+  width: 99%;
+}
+
+#pac-input {
+  margin: 15px 0px 0px 15px;
+  width: 250px;
+}
+
+.boxContainer {
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+.boxContainer form input {
+  width: auto;
+}
+
+.boxContainer span.label {
+  display: block;
+}
+
+.eventsWindow {
+  overflow: scroll;
+}

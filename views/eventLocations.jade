@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    div.boxContainer
+        h1 Add Location
+        form(name="add-location", method="post", action="/add/location")
+            div.input
+                span.label Name
+                input(type="text", name="name")
+            div.input
+                span.label Description
+                textarea(name="description", cols="40", rows="5")
+            div.actions
+                input(type="submit", value="add")
+    div.boxContainer
+        h1 Add Event
+        form(name="add-event", method="post", action="/add/event")
+            div.input
+                span.label Name
+                input(type="text", name="name")
+            div.input
+                span.label Description
+                textarea(name="description", cols="40", rows="5")
+            div.input
+                span.label Location
+                input(type="text", name="location")
+            div.actions
+                input(type="submit", value="add")      
