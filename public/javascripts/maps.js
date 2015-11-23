@@ -3,7 +3,7 @@ function initialize() {
     var markers = [];
     var infoWindows = [];
     var openInfoWindow;
-    var uStore = new google.maps.LatLng(40.443220,-79.955768);
+    var centralLocation = new google.maps.LatLng(40.443220,-79.955768);
     
     
     function placeMarker(location,cb) {
@@ -92,7 +92,7 @@ function initialize() {
     
 
     var mapOptions = {
-      center: uStore,
+      center: centralLocation,
       zoom: 13,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true
